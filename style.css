@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.toptop{
+    display: flex;
+    align-items: flex-end;
+    font-family: "Black Ops One";
+    font-size: 20px;
+    font-weight:900;
+    color: beige;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Rubik Doodle Shadow";
+    font-size: 20px;
+    font-weight: bold;
+    color: beige;
+}
+.im1{
+    width: 80px;
+    height: auto;
+}
+.btn1{
+    border: none;
+    font-family: "Rubik Doodle Shadow";
+    font-size: 20px;
+    font-weight: bold;
+    color: beige;
+    background-color: rgb(19, 4, 4);
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(19, 4, 4);
+    padding: 10px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.actv{
+    font-size: 35px;
+    text-shadow: 1px 0px 1px white;
+}
+.cont{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 65px;
+}
+.item{
+    border: 1px solid rgb(189, 186, 186);
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+.btn2{
+    font-size: 100px;
+    color: gray;
+}
+.actvp{
+    border-left: 10px solid green;
+}
+.btn3{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    background-size: cover;
+}
+.del{
+    background-image: url('./images/trash.png');
+}
+.edit{
+    background-image: url('./images/edit.png');
+}
+.toplist , .downlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dis{
+    border: 1px solid rgb(168, 166, 166);
+    width: 277px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Exo 2";
+    color: gray;
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(233, 229, 229);
+
+}
+.content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.project{
+    font-size: 30px;
+    color: green;
+    font-family: "Rubik Doodle Triangles";
+}
+.tit{
+    font-family: "Rubik Glitch";
+    font-size: 20px;
+    color: black;
+}
+.check{
+    width: 30px;
+    height: 30px;
+}
+
+
+button:active{
+    transition: transform 0.7s;
+    transform: scale(0.7);
+}
+
+
+
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:#ecf0f1;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+
+
+.done{
+    font-family: "Rubik Doodle Shadow";
+    font-weight: 600;
+    color: blue;
+}
+.time{
+    text-align:left;
+    font-family: "Righteous";
+}
+.weekday{
+    font-size: 20px;
+    color: #3c53c7;
+    font-weight: 700;
+}
+.month{
+    color: #c7863c;
+    font-weight: 700;
+}
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+input[type='text'],.disc{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(20, 201, 20);
+    font-family: "Righteous";
+}
+.in{
+    height: 600px;
+    width: 400px;
+}
+.sel,.prio,.dt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.txt1{
+    font-size: 20px;
+    font-family: "Righteous";
+    font-weight: 500;
+    color: #3c53c7;
+}
+textarea{
+    resize: none;
+}
+.btn4{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-family: "Black Ops One";
+    margin: 5px;
+}
+.high{
+    background-color: green;
+}
+.med{
+    background-color: #da9f5d;
+}
+.low{
+    background-color: red;
+}
+.act{
+    transform: scale(0.8);
+}
+select{
+    color: gray;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-family: "Righteous";
+    border-radius: 5px;
+    width: 100px;
+}
+.btn5{
+    color: white;
+    width: 100px;
+    font-size: 20px;
+    font-family: "Black Ops One";
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+}
+.sub{
+    background-color: green;
+}
+.can{
+    background-color: red;
+}
+.op{
+    align-self: flex-end;
+}
+.date{
+    border-radius: 10px;
+}
+span{
+    margin-right: 5px;
+}
+.blur{
+    filter: blur(2px);
+}
+
+.PROJECT{
+    display: flex;
+    flex-direction: column;
+}
+
+.projecttop{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+.ptop{
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+    width: 100px;
+}
+.notee{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.topnote{
+    align-self: flex-end;
+}
+.btnnote{
+    height: 280px;
+}
+.dis2{
+    color: #021114;
+    font-size: 16px;
+}
+.in2{
+    height: 300px;
+}
